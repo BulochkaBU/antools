@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.my-navbar {
+  padding-top: 26px;
+  background-color: #1e252b;
+}
+.my-navbar .navbar-expand .navbar-nav .nav-link {
+  padding: 0 25px;
+  transition: all 0.5s;
+}
+.my-navbar .navbar-expand .navbar-nav .nav-link:hover {
+  color: #ff6e30;
+}
+.my-navbar .buttons-navbar button {
+  margin: 0 15px;
+}
+.my-navbar .buttons-navbar .btn-link {
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.78);
+  text-decoration: none;
+  opacity: 0.78;
+  transition: all 0.5s;
+}
+.my-navbar .buttons-navbar .btn-link:hover {
+  color: #ff6e30;
+}
+
+.main-btn {
+  background: #ff6e30;
+  border-radius: 8px;
+  width: 118px;
+  height: 48px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+  border: none;
+  transition: all 0.5s;
+}
+.main-btn:hover {
+  background: #1e252b;
+  color: #ff6e30;
+}
+
+.promo {
+  height: 700px;
+  background-color: #1e252b;
+  position: relative;
+}
+.promo__body {
+  padding: 104px 0 100px 111px;
+}
+.promo__bg-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.promo h1 {
+  width: 600px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 50px;
+  line-height: 140%;
+}
+.promo h1 span {
+  color: #ff6e30;
+}
+.promo__text {
+  width: 487px;
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 18px;
+  line-height: 30px;
+  margin: 30px 0 60px 0;
+}
+.promo form {
+  position: relative;
+}
+.promo form .form-control {
+  width: 500px;
+  height: 64px;
+  background: #283036;
+  border-radius: 15px;
+  padding: 8px 11px 8px 53px;
+  border-color: #837a93;
+}
+.promo form .main-btn {
+  position: absolute;
+  left: 372px;
+  top: 8px;
+}
+.promo form .icon-search {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+.promo .social {
+  display: flex;
+  width: 190px;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 5px;
+}
+
+.container {
+  background-color: #1e252b;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}

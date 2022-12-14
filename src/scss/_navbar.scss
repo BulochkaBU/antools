@@ -1,0 +1,30 @@
+.my-navbar {
+  padding-top: 26px;
+  background-color: $main-color;
+  .navbar-expand {
+    .navbar-nav {
+      .nav-link {
+        padding: 0 25px;
+        transition: all 0.5s;
+        &:hover {
+          color: $orange-color;
+        }
+      }
+    }
+  }
+  .buttons-navbar {
+    button {
+      margin: 0 15px;
+    }
+    .btn-link {
+      font-weight: 600;
+      color: rgba(255, 255, 255, 0.78);
+      text-decoration: none;
+      opacity: 0.78;
+      transition: all 0.5s;
+      &:hover {
+        color: $orange-color;
+      }
+    }
+  }
+}
