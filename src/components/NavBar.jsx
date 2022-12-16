@@ -10,7 +10,7 @@ import logo from "../images/logo.png";
 const NavBar = () => {
   return (
     <section className="my-navbar">
-      <Navbar bg="dark" variant="dark">
+      <Navbar bg="dark" variant="dark" expand="lg">
         <Container>
           <Navbar.Brand href="#">
             <img src={logo} alt="logo" />

@@ -10,7 +10,7 @@
   color: #ff6e30;
 }
 .my-navbar .buttons-navbar button {
-  margin: 0 15px;
+  margin: 0 auto;
 }
 .my-navbar .buttons-navbar .btn-link {
   font-weight: 600;
@@ -87,28 +87,6 @@
 .promo h1 span {
   color: #ff6e30;
 }
-.promo form {
-  position: relative;
-}
-.promo form .form-control {
-  width: 500px;
-  height: 64px;
-  background: #283036;
-  border-radius: 15px;
-  padding: 8px 11px 8px 53px;
-  border-color: #837a93;
-  color: rgba(255, 255, 255, 0.9);
-}
-.promo form .main-btn {
-  position: absolute;
-  left: 372px;
-  top: 8px;
-}
-.promo form .icon-search {
-  position: absolute;
-  left: 20px;
-  top: 20px;
-}
 .promo .social {
   display: flex;
   width: 190px;
@@ -122,19 +100,21 @@
   min-height: 1109px;
 }
 .popular-tools__item {
-  width: 392px;
+  width: 372px;
   height: 294px;
-  padding: 33px;
+  padding: 23px;
   transition: all 0.6s;
 }
 .popular-tools__item:hover {
-  background-image: linear-gradient(40deg, hsl(206deg, 15%, 18%) 80%, rgba(255, 109, 46, 0.245) 101%);
   backdrop-filter: blur(25px);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
-  border-radius: 15px;
-  border: 2px solid rgba(255, 109, 46, 0.245);
   transform: translateY(-50px);
+  border-style: solid;
+  border-width: 2px;
+  border-image: linear-gradient(45deg, rgba(40, 48, 54, 0.88) 73%, rgba(255, 109, 46, 0.25) 100%) 1;
+  background-origin: border-box;
+  background-image: linear-gradient(40deg, hsl(206deg, 15%, 18%) 85%, rgba(255, 109, 46, 0.245) 101%);
 }
 .popular-tools__item:hover .popular-tools__item__title {
   color: rgba(255, 255, 255, 0.9);
@@ -164,8 +144,7 @@
   color: rgba(255, 165, 55, 0.55);
 }
 .popular-tools__item__content {
-  width: 326px;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 30px;
   color: rgba(255, 255, 255, 0.55);
   margin: 30px 0;
@@ -208,12 +187,12 @@
 .brands__wrapper {
   height: 253px;
   padding: 55px 83px;
-  background-image: linear-gradient(-40deg, hsl(206deg, 15%, 18%) 80%, rgba(255, 109, 46, 0.245) 101%);
+  background-image: linear-gradient(-40deg, hsl(206deg, 15%, 18%) 90%, rgba(255, 109, 46, 0.245) 101%);
   backdrop-filter: blur(25px);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
   border-radius: 15px;
-  border: 2px solid rgba(255, 109, 46, 0.245);
+  border: 2px solid #283036;
 }
 .brands__title {
   font-weight: 500;
@@ -282,6 +261,79 @@
   top: 60px;
 }
 
+.contributor {
+  margin: 250px 0;
+}
+.contributor form .form-control {
+  margin: 0 auto;
+  padding: 8px 11px 8px 24px;
+}
+.contributor form .main-btn {
+  position: absolute;
+  left: unset;
+  right: 408px;
+  top: 8px;
+}
+
+form {
+  position: relative;
+}
+form .form-control {
+  width: 500px;
+  height: 64px;
+  background: #283036;
+  border-radius: 15px;
+  padding: 8px 11px 8px 53px;
+  border-color: #283036;
+  color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+form .main-btn {
+  position: absolute;
+  left: 372px;
+  top: 8px;
+}
+form .icon-search {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.footer {
+  border-top: 0.5px solid rgba(255, 255, 255, 0.15);
+  margin: 70px 0 98px 0;
+}
+.footer__item {
+  margin-top: 70px;
+  width: 260px;
+}
+.footer__title {
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.9);
+}
+.footer__subtitle {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 25px 0;
+}
+.footer__content {
+  font-size: 14px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.55);
+}
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+.footer ul li {
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 16px;
+  line-height: 24px;
+  margin: 10px 0;
+}
+
 * {
   font-family: "Poppins", sans-serif;
 }
@@ -306,7 +358,7 @@
   width: 487px;
   margin: 30px 0 60px 0;
 }
-.subtitle_popular {
+.subtitle_center {
   width: 427px;
   margin: 25px auto 90px auto;
   text-align: center;

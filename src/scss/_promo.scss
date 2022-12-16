@@ -20,30 +20,6 @@
     }
   }
 
-  form {
-    position: relative;
-
-    .form-control {
-      width: 500px;
-      height: 64px;
-      background: #283036;
-      border-radius: 15px;
-      padding: 8px 11px 8px 53px;
-      border-color: #837a93;
-      color: $header-color;
-    }
-    .main-btn {
-      position: absolute;
-      left: 372px;
-      top: 8px;
-    }
-
-    .icon-search {
-      position: absolute;
-      left: 20px;
-      top: 20px;
-    }
-  }
   .social {
     display: flex;
     width: 190px;

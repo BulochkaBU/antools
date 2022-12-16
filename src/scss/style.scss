@@ -6,7 +6,10 @@
 @import "./_promo";
 @import "./_popular-tools";
 @import "./_brands";
-@import "./slider";
+@import "./_slider";
+@import "./_contributor";
+@import "./_form";
+@import "./_footer";
 
 * {
   font-family: "Poppins", sans-serif;
@@ -32,7 +35,7 @@
     width: 487px;
     margin: 30px 0 60px 0;
   }
-  &_popular {
+  &_center {
     width: 427px;
     margin: 25px auto 90px auto;
     text-align: center;

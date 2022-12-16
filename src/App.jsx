@@ -7,6 +7,8 @@ import PopularTools from "./components/PopularTools";
 import Brands from "./components/Brands";
 
 import Slider from "./components/Slider";
+import Contributor from "./components/Contributor";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <PopularTools />
       <Brands />
       <Slider />
+      <Contributor />
+      <Footer />
     </>
   );
 }
