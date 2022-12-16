@@ -1,10 +1,9 @@
 .promo {
-  height: 700px;
-  background-color: $main-color;
+  min-height: 700px;
   position: relative;
 
   &__body {
-    padding: 104px 0 100px 111px;
+    padding: 110px 0;
   }
   &__bg-img {
     position: absolute;
@@ -20,13 +19,7 @@
       color: $orange-color;
     }
   }
-  &__text {
-    width: 487px;
-    color: $text-color;
-    font-size: 18px;
-    line-height: 30px;
-    margin: 30px 0 60px 0;
-  }
+
   form {
     position: relative;
 
@@ -37,6 +30,7 @@
       border-radius: 15px;
       padding: 8px 11px 8px 53px;
       border-color: #837a93;
+      color: $header-color;
     }
     .main-btn {
       position: absolute;
