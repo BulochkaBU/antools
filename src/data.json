@@ -1,0 +1,77 @@
+
+{
+  "popularTools" : [ {
+    "id": "1",
+    "title": "FIGMA",
+    "subtitle": "Free",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "./images/icons/figma.svg"
+  },
+  {
+    "id": "2",
+    "title": "Sketch",
+    "subtitle": "Trial & Paid",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "./images/icons/sketch.svg"
+  },
+  {
+    "id": "3",
+    "title": "Visual Studio Code",
+    "subtitle": "Free",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "./images/icons/vsc.svg"
+  },
+  {
+    "id": "4",
+    "title": "Notion",
+    "subtitle": "Free & Paid",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "./images/icons/notion.svg"
+  },
+  {
+    "id": "5",
+    "title": "Slack",
+    "subtitle": "Free & Paid",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "./images/icons/slack.svg"
+  },
+  {
+    "id": "6",
+    "title": "Invision",
+    "subtitle": "Free & Paid",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "./images/icons/invision.svg"
+  }
+ ],
+ "newcomerTools" : [ {
+  "id": "1",
+  "title": "Zeplin",
+  "subtitle": "Free & Paid",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  "image": "./images/icons/zeplin.svg"
+},
+{
+  "id": "2",
+  "title": "PHPStorm",
+  "subtitle": "Free",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  "image": "./images/icons/phpstorm.svg"
+},
+{
+  "id": "3",
+  "title": "Toolbox",
+  "subtitle": "Free",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  "image": "./images/icons/toolbox.svg"
+},
+{
+  "id": "4",
+  "title": "Procreate",
+  "subtitle": "Free",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  "image": "./images/icons/procreate.svg"
+}
+
+]
+}
+

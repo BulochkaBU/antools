@@ -1,7 +1,6 @@
 .promo {
   min-height: 700px;
   position: relative;
-
   &__body {
     padding: 110px 0;
   }
@@ -19,12 +18,12 @@
       color: $orange-color;
     }
   }
-
   .social {
     display: flex;
     width: 190px;
     justify-content: space-between;
     position: absolute;
     bottom: 5px;
+    cursor: pointer;
   }
 }

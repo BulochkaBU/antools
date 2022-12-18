@@ -1,19 +1,19 @@
 .my-navbar {
   padding-top: 26px;
-  .navbar-expand {
+  .navbar-expand-lg {
     .navbar-nav {
       .nav-link {
-        padding: 0 25px;
-        transition: all 0.5s;
-        &:hover {
-          color: $orange-color;
-        }
+        padding: 0 20px;
       }
     }
   }
   .buttons-navbar {
     button {
       margin: 0 auto;
+      transition: all 0.5s;
+      &:hover {
+        color: $orange-color;
+      }
     }
     .btn-link {
       font-weight: 600;

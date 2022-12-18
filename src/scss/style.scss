@@ -4,8 +4,10 @@
 @import "./_navbar";
 @import "./_buttons";
 @import "./_promo";
+@import "./_tools";
 @import "./_popular-tools";
 @import "./_brands";
+@import "./_newcomer";
 @import "./_slider";
 @import "./_contributor";
 @import "./_form";
@@ -24,16 +26,21 @@
     width: 455px;
     margin: 0 auto;
   }
+  &_left {
+    text-align-last: left;
+  }
 }
 
 .subtitle {
   color: $text-color;
   font-size: 18px;
   line-height: 30px;
-
+  margin: 30px 0 60px 0;
   &_promo {
     width: 487px;
-    margin: 30px 0 60px 0;
+  }
+  &_newcomer {
+    width: 427px;
   }
   &_center {
     width: 427px;

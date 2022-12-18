@@ -1,6 +1,5 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-
 import logos_microsoft from "../images/icons/logos_microsoft.svg";
 import logos_slack from "../images/icons/logos_slack.svg";
 import logos_google from "../images/icons/logos_google.svg";

@@ -12,6 +12,10 @@
     background: $main-color;
     color: $orange-color;
   }
+  &_big {
+    width: 198px;
+    height: 58px;
+  }
 }
 .link-btn {
   color: rgba(255, 255, 255, 0.78);
@@ -23,7 +27,6 @@
   border: none;
   background: $main-color;
 }
-
 .load-more {
   width: 184px;
   height: 64px;
@@ -36,6 +39,6 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
-  margin: 100px auto;
+  margin: 0 auto;
   display: block;
 }

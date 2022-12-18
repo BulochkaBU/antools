@@ -1,7 +1,6 @@
 import React from "react";
-import { Container, Button } from "react-bootstrap";
-
-import figma from "../images/icons/figma.svg";
+import { Container } from "react-bootstrap";
+import data from "../data.json";
 
 const PopularTools = () => {
   return (
@@ -13,93 +12,35 @@ const PopularTools = () => {
           world
         </div>
         <div className="row">
-          <div className="col-lg-4 col-md-6">
-            <div className="popular-tools__item">
-              <div className="popular-tools__item__wrapper-titles">
-                <img
-                  className="popular-tools__item__icon"
-                  src={figma}
-                  alt="figma"
-                ></img>
-                <div className="popular-tools__item__subheader">
-                  <div className="popular-tools__item__title">Figma</div>
-                  <div className="popular-tools__item__subtitle">Free</div>
-                </div>
-              </div>
-              <div className="popular-tools__item__content">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </div>
-              <div className="popular-tools__item__footer">
-                <div className="popular-tools__item__wrapper-icons">
-                  <div className="square">
-                    <i className="fa-solid fa-heart fa-lg"></i>
-                  </div>
-                  <div className="square">
-                    <i className="fa-sharp fa-solid fa-folder-plus fa-lg"></i>
+          {data.popularTools.map((item) => (
+            <div className="col-lg-4 col-md-6" key={item.id}>
+              <div className="tools__item">
+                <div className="tools__item__wrapper-titles">
+                  <img
+                    className="tools__item__icon"
+                    src={item.image}
+                    alt="figma"
+                  ></img>
+                  <div className="tools__item__subheader">
+                    <div className="tools__item__title">{item.title}</div>
+                    <div className="tools__item__subtitle">{item.subtitle}</div>
                   </div>
                 </div>
-                <button className="link-btn">Visit</button>
+                <div className="tools__item__content">{item.description}</div>
+                <div className="tools__item__footer">
+                  <div className="tools__item__wrapper-icons">
+                    <div className="square">
+                      <i className="fa-solid fa-heart fa-lg"></i>
+                    </div>
+                    <div className="square">
+                      <i className="fa-sharp fa-solid fa-folder-plus fa-lg"></i>
+                    </div>
+                  </div>
+                  <button className="link-btn">Visit</button>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="col-lg-4 col-md-6">
-            <div className="popular-tools__item">
-              <div className="popular-tools__item__wrapper-titles">
-                <img
-                  className="popular-tools__item__icon"
-                  src={figma}
-                  alt="figma"
-                ></img>
-                <div className="popular-tools__item__subheader">
-                  <div className="popular-tools__item__title">Figma</div>
-                  <div className="popular-tools__item__subtitle">Free</div>
-                </div>
-              </div>
-              <div className="popular-tools__item__content">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </div>
-              <div className="popular-tools__item__footer">
-                <div className="popular-tools__item__wrapper-icons">
-                  <div className="square">
-                    <i className="fa-solid fa-heart fa-lg"></i>
-                  </div>
-                  <div className="square">
-                    <i className="fa-sharp fa-solid fa-folder-plus fa-lg"></i>
-                  </div>
-                </div>
-                <button className="link-btn">Visit</button>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6">
-            <div className="popular-tools__item">
-              <div className="popular-tools__item__wrapper-titles">
-                <img
-                  className="popular-tools__item__icon"
-                  src={figma}
-                  alt="figma"
-                ></img>
-                <div className="popular-tools__item__subheader">
-                  <div className="popular-tools__item__title">Figma</div>
-                  <div className="popular-tools__item__subtitle">Free</div>
-                </div>
-              </div>
-              <div className="popular-tools__item__content">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </div>
-              <div className="popular-tools__item__footer">
-                <div className="popular-tools__item__wrapper-icons">
-                  <div className="square">
-                    <i className="fa-solid fa-heart fa-lg"></i>
-                  </div>
-                  <div className="square">
-                    <i className="fa-sharp fa-solid fa-folder-plus fa-lg"></i>
-                  </div>
-                </div>
-                <button className="link-btn">Visit</button>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
         <button className="load-more">Load more</button>
       </Container>

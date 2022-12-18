@@ -1,0 +1,12 @@
+.newcomer {
+  margin-bottom: 130px;
+  .tools {
+    &__item {
+      width: 288px;
+      margin-bottom: 70px;
+      &__footer {
+        width: 250px;
+      }
+    }
+  }
+}

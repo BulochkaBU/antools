@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import logo from "../images/logo.png";
+
 const Footer = () => {
   return (
     <section className="footer">
